@@ -15,6 +15,7 @@
 		6851278B1CEBFB9800AEDDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685127891CEBFB9800AEDDCD /* LaunchScreen.storyboard */; };
 		685127961CEBFB9800AEDDCD /* CAEmitterLayer__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685127951CEBFB9800AEDDCD /* CAEmitterLayer__Tests.m */; };
 		685127A11CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685127A01CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m */; };
+		685127B31CEBFEA100AEDDCD /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 685127B21CEBFEA100AEDDCD /* fire.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6851279C1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CAEmitterLayer爆炸UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		685127A01CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayer__UITests.m; sourceTree = "<group>"; };
 		685127A21CEBFB9800AEDDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685127B21CEBFEA100AEDDCD /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				6851277F1CEBFB9800AEDDCD /* AppDelegate.m */,
 				685127811CEBFB9800AEDDCD /* ViewController.h */,
 				685127821CEBFB9800AEDDCD /* ViewController.m */,
+				685127B21CEBFEA100AEDDCD /* fire.png */,
 				685127841CEBFB9800AEDDCD /* Main.storyboard */,
 				685127871CEBFB9800AEDDCD /* Assets.xcassets */,
 				685127891CEBFB9800AEDDCD /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6851278B1CEBFB9800AEDDCD /* LaunchScreen.storyboard in Resources */,
+				685127B31CEBFEA100AEDDCD /* fire.png in Resources */,
 				685127881CEBFB9800AEDDCD /* Assets.xcassets in Resources */,
 				685127861CEBFB9800AEDDCD /* Main.storyboard in Resources */,
 			);
