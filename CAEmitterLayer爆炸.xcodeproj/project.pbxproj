@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6851277D1CEBFB9800AEDDCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851277C1CEBFB9800AEDDCD /* main.m */; };
+		685127801CEBFB9800AEDDCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851277F1CEBFB9800AEDDCD /* AppDelegate.m */; };
+		685127831CEBFB9800AEDDCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685127821CEBFB9800AEDDCD /* ViewController.m */; };
+		685127861CEBFB9800AEDDCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685127841CEBFB9800AEDDCD /* Main.storyboard */; };
+		685127881CEBFB9800AEDDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685127871CEBFB9800AEDDCD /* Assets.xcassets */; };
+		6851278B1CEBFB9800AEDDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685127891CEBFB9800AEDDCD /* LaunchScreen.storyboard */; };
+		685127961CEBFB9800AEDDCD /* CAEmitterLayer__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685127951CEBFB9800AEDDCD /* CAEmitterLayer__Tests.m */; };
+		685127A11CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685127A01CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		685127921CEBFB9800AEDDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685127701CEBFB9800AEDDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685127771CEBFB9800AEDDCD;
+			remoteInfo = "CAEmitterLayer爆炸";
+		};
+		6851279D1CEBFB9800AEDDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685127701CEBFB9800AEDDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685127771CEBFB9800AEDDCD;
+			remoteInfo = "CAEmitterLayer爆炸";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		685127781CEBFB9800AEDDCD /* CAEmitterLayer爆炸.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAEmitterLayer爆炸.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6851277C1CEBFB9800AEDDCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6851277E1CEBFB9800AEDDCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6851277F1CEBFB9800AEDDCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685127811CEBFB9800AEDDCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		685127821CEBFB9800AEDDCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		685127851CEBFB9800AEDDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685127871CEBFB9800AEDDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6851278A1CEBFB9800AEDDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6851278C1CEBFB9800AEDDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685127911CEBFB9800AEDDCD /* CAEmitterLayer爆炸Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CAEmitterLayer爆炸Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685127951CEBFB9800AEDDCD /* CAEmitterLayer__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayer__Tests.m; sourceTree = "<group>"; };
+		685127971CEBFB9800AEDDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6851279C1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CAEmitterLayer爆炸UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685127A01CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayer__UITests.m; sourceTree = "<group>"; };
+		685127A21CEBFB9800AEDDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685127751CEBFB9800AEDDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851278E1CEBFB9800AEDDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685127991CEBFB9800AEDDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6851276F1CEBFB9800AEDDCD = {
+			isa = PBXGroup;
+			children = (
+				6851277A1CEBFB9800AEDDCD /* CAEmitterLayer爆炸 */,
+				685127941CEBFB9800AEDDCD /* CAEmitterLayer爆炸Tests */,
+				6851279F1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests */,
+				685127791CEBFB9800AEDDCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685127791CEBFB9800AEDDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685127781CEBFB9800AEDDCD /* CAEmitterLayer爆炸.app */,
+				685127911CEBFB9800AEDDCD /* CAEmitterLayer爆炸Tests.xctest */,
+				6851279C1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6851277A1CEBFB9800AEDDCD /* CAEmitterLayer爆炸 */ = {
+			isa = PBXGroup;
+			children = (
+				6851277E1CEBFB9800AEDDCD /* AppDelegate.h */,
+				6851277F1CEBFB9800AEDDCD /* AppDelegate.m */,
+				685127811CEBFB9800AEDDCD /* ViewController.h */,
+				685127821CEBFB9800AEDDCD /* ViewController.m */,
+				685127841CEBFB9800AEDDCD /* Main.storyboard */,
+				685127871CEBFB9800AEDDCD /* Assets.xcassets */,
+				685127891CEBFB9800AEDDCD /* LaunchScreen.storyboard */,
+				6851278C1CEBFB9800AEDDCD /* Info.plist */,
+				6851277B1CEBFB9800AEDDCD /* Supporting Files */,
+			);
+			path = "CAEmitterLayer爆炸";
+			sourceTree = "<group>";
+		};
+		6851277B1CEBFB9800AEDDCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6851277C1CEBFB9800AEDDCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		685127941CEBFB9800AEDDCD /* CAEmitterLayer爆炸Tests */ = {
+			isa = PBXGroup;
+			children = (
+				685127951CEBFB9800AEDDCD /* CAEmitterLayer__Tests.m */,
+				685127971CEBFB9800AEDDCD /* Info.plist */,
+			);
+			path = "CAEmitterLayer爆炸Tests";
+			sourceTree = "<group>";
+		};
+		6851279F1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests */ = {
+			isa = PBXGroup;
+			children = (
+				685127A01CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m */,
+				685127A21CEBFB9800AEDDCD /* Info.plist */,
+			);
+			path = "CAEmitterLayer爆炸UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685127771CEBFB9800AEDDCD /* CAEmitterLayer爆炸 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685127A51CEBFB9800AEDDCD /* Build configuration list for PBXNativeTarget "CAEmitterLayer爆炸" */;
+			buildPhases = (
+				685127741CEBFB9800AEDDCD /* Sources */,
+				685127751CEBFB9800AEDDCD /* Frameworks */,
+				685127761CEBFB9800AEDDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAEmitterLayer爆炸";
+			productName = "CAEmitterLayer爆炸";
+			productReference = 685127781CEBFB9800AEDDCD /* CAEmitterLayer爆炸.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685127901CEBFB9800AEDDCD /* CAEmitterLayer爆炸Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685127A81CEBFB9800AEDDCD /* Build configuration list for PBXNativeTarget "CAEmitterLayer爆炸Tests" */;
+			buildPhases = (
+				6851278D1CEBFB9800AEDDCD /* Sources */,
+				6851278E1CEBFB9800AEDDCD /* Frameworks */,
+				6851278F1CEBFB9800AEDDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685127931CEBFB9800AEDDCD /* PBXTargetDependency */,
+			);
+			name = "CAEmitterLayer爆炸Tests";
+			productName = "CAEmitterLayer爆炸Tests";
+			productReference = 685127911CEBFB9800AEDDCD /* CAEmitterLayer爆炸Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6851279B1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685127AB1CEBFB9800AEDDCD /* Build configuration list for PBXNativeTarget "CAEmitterLayer爆炸UITests" */;
+			buildPhases = (
+				685127981CEBFB9800AEDDCD /* Sources */,
+				685127991CEBFB9800AEDDCD /* Frameworks */,
+				6851279A1CEBFB9800AEDDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6851279E1CEBFB9800AEDDCD /* PBXTargetDependency */,
+			);
+			name = "CAEmitterLayer爆炸UITests";
+			productName = "CAEmitterLayer爆炸UITests";
+			productReference = 6851279C1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685127701CEBFB9800AEDDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CodingFire;
+				TargetAttributes = {
+					685127771CEBFB9800AEDDCD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					685127901CEBFB9800AEDDCD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 685127771CEBFB9800AEDDCD;
+					};
+					6851279B1CEBFB9800AEDDCD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 685127771CEBFB9800AEDDCD;
+					};
+				};
+			};
+			buildConfigurationList = 685127731CEBFB9800AEDDCD /* Build configuration list for PBXProject "CAEmitterLayer爆炸" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6851276F1CEBFB9800AEDDCD;
+			productRefGroup = 685127791CEBFB9800AEDDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685127771CEBFB9800AEDDCD /* CAEmitterLayer爆炸 */,
+				685127901CEBFB9800AEDDCD /* CAEmitterLayer爆炸Tests */,
+				6851279B1CEBFB9800AEDDCD /* CAEmitterLayer爆炸UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685127761CEBFB9800AEDDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6851278B1CEBFB9800AEDDCD /* LaunchScreen.storyboard in Resources */,
+				685127881CEBFB9800AEDDCD /* Assets.xcassets in Resources */,
+				685127861CEBFB9800AEDDCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851278F1CEBFB9800AEDDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851279A1CEBFB9800AEDDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685127741CEBFB9800AEDDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685127831CEBFB9800AEDDCD /* ViewController.m in Sources */,
+				685127801CEBFB9800AEDDCD /* AppDelegate.m in Sources */,
+				6851277D1CEBFB9800AEDDCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851278D1CEBFB9800AEDDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685127961CEBFB9800AEDDCD /* CAEmitterLayer__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685127981CEBFB9800AEDDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685127A11CEBFB9800AEDDCD /* CAEmitterLayer__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685127931CEBFB9800AEDDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685127771CEBFB9800AEDDCD /* CAEmitterLayer爆炸 */;
+			targetProxy = 685127921CEBFB9800AEDDCD /* PBXContainerItemProxy */;
+		};
+		6851279E1CEBFB9800AEDDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685127771CEBFB9800AEDDCD /* CAEmitterLayer爆炸 */;
+			targetProxy = 6851279D1CEBFB9800AEDDCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		685127841CEBFB9800AEDDCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685127851CEBFB9800AEDDCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685127891CEBFB9800AEDDCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6851278A1CEBFB9800AEDDCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685127A31CEBFB9800AEDDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		685127A41CEBFB9800AEDDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685127A61CEBFB9800AEDDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CAEmitterLayer爆炸/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.CAEmitterLayer--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		685127A71CEBFB9800AEDDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CAEmitterLayer爆炸/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.CAEmitterLayer--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		685127A91CEBFB9800AEDDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CAEmitterLayer爆炸Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.CAEmitterLayer--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAEmitterLayer爆炸.app/CAEmitterLayer爆炸";
+			};
+			name = Debug;
+		};
+		685127AA1CEBFB9800AEDDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CAEmitterLayer爆炸Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.CAEmitterLayer--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAEmitterLayer爆炸.app/CAEmitterLayer爆炸";
+			};
+			name = Release;
+		};
+		685127AC1CEBFB9800AEDDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CAEmitterLayer爆炸UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.CAEmitterLayer--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CAEmitterLayer爆炸";
+			};
+			name = Debug;
+		};
+		685127AD1CEBFB9800AEDDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CAEmitterLayer爆炸UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.CAEmitterLayer--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CAEmitterLayer爆炸";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685127731CEBFB9800AEDDCD /* Build configuration list for PBXProject "CAEmitterLayer爆炸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685127A31CEBFB9800AEDDCD /* Debug */,
+				685127A41CEBFB9800AEDDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685127A51CEBFB9800AEDDCD /* Build configuration list for PBXNativeTarget "CAEmitterLayer爆炸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685127A61CEBFB9800AEDDCD /* Debug */,
+				685127A71CEBFB9800AEDDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		685127A81CEBFB9800AEDDCD /* Build configuration list for PBXNativeTarget "CAEmitterLayer爆炸Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685127A91CEBFB9800AEDDCD /* Debug */,
+				685127AA1CEBFB9800AEDDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		685127AB1CEBFB9800AEDDCD /* Build configuration list for PBXNativeTarget "CAEmitterLayer爆炸UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685127AC1CEBFB9800AEDDCD /* Debug */,
+				685127AD1CEBFB9800AEDDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685127701CEBFB9800AEDDCD /* Project object */;
+}
